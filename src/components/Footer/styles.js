@@ -7,7 +7,6 @@ export const Box = styled.div`
     flex-direction: column;
     padding: 1.5rem;
     background-color: hsl(0, 0%, 95%);
-    margin-top: 50px;
 
     @media (max-width: 768px) {
       padding: 4rem;
@@ -18,11 +17,11 @@ export const Box = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 2rem;
     width: 100%;
     @media (max-width: 768px) {
-      flex-direction: row;
+      flex-direction: column;
     }
     `;
 
@@ -31,8 +30,9 @@ export const Box = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin-right: 2.5rem;
+    padding-top: 4rem;
     `;
 
     export const ColumnB = styled.div`
@@ -62,11 +62,11 @@ export const Box = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-direction: column;
+      flex-direction: row;
       padding-top: 1.5rem;
 
       @media (max-width: 768px) {
-        flex-direction: row;
+        flex-direction: column;
       }
     `;
 

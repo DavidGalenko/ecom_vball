@@ -61,7 +61,6 @@ const App = () => {
         fetchProducts();
         fetchCart();
     }, []);
-
     return (
         <Router>
             <div>
