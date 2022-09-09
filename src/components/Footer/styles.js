@@ -57,8 +57,6 @@ export const Box = styled.div`
   
     export const FooterBottom = styled.div`
       width: 100%;
-      border-top-width: 1px;
-      border-top-color: black;
       display: flex;
       justify-content: space-between;
       align-items: center;

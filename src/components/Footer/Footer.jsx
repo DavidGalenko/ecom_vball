@@ -7,7 +7,7 @@ import {Box, Container, ColumnA, ColumnB, FooterLink, FooterBottom} from './styl
 const Footer = () => {
 
   return (
-      <Box style={{borderTop: '1px solid rgba(0, 0, 0, 0.12)'}}>
+      <Box style={{marginTop: '50px', borderTop: '1px solid rgba(0, 0, 0, 0.12)'}}>
         <Container>
           <ColumnA>
             <img

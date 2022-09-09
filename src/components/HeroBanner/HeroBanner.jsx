@@ -20,7 +20,7 @@ const HeroBanner = ({heroBanner}) => {
             <HeroButton type="button">Buy Now</HeroButton>
           </Link>
           <Description>
-            <Typography variant='h5' style={{marginBottom: '12px', fontWeight: '700', fontSize: '16px', alignSelf: 'flex-end'}}>Description</Typography>
+            <Typography variant='h5' style={{ fontWeight: '700', fontSize: '16px', alignSelf: 'flex-end'}}>Description</Typography>
             <Typography variant='body2' style={{color: '#5f5f5f', textAlign: 'end'}} dangerouslySetInnerHTML={{__html: heroBanner.description}}></Typography>
           </Description>
         </div>

@@ -41,33 +41,3 @@ display: flex;
 flex-direction: column;
 color: #324d67;
 `;
-/*
-  .hero-banner-container .beats-solo{
-    font-size: 20px;
-  }
-
-  
-  .hero-banner-container h3{
-    font-size: 4rem;
-    margin-top: 4px;
-  }
-  .hero-banner-container h1{
-    color: white;
-    font-size: 10em;
-    margin-left: -20px;
-    text-transform: uppercase;
-  }  
-  
-  .desc p{
-    color: #5f5f5f;
-    font-weight: 100;
-  text-align: end;
-  }
-  .desc h5{
-    margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    /* color: black; 
-    align-self: flex-end;
-  }
-  */

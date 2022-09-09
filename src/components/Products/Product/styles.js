@@ -16,4 +16,11 @@ export default makeStyles(() => ({
         display: 'flex',
         justifyContent: 'space-between',
     },
+    review: {
+        display: 'flex',
+        justifyContent: 'flex-end',
+        position: 'relative',
+        bottom: '30px',
+        color: '#f02d34'
+    }
 }));
